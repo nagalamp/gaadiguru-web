@@ -4,17 +4,15 @@ import Image from "next/image";
 
 export default function HeroSection() {
     return (
-        <section
-            className="relative w-full overflow-hidden bg-[#FFD700]"
-        >
-            <div className="relative w-full h-[220px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px]">
+        <section className="relative w-full overflow-hidden bg-[#FFD700] m-t:2">
+            <div className="relative h-[180px] w-full sm:h-[250px] md:h-[350px] lg:h-[450px] xl:h-[550px] 2xl:h-[650px]">
                 <Image
                     src="/images/hero/banner.png"
                     alt="GaadiGuru Hero Banner"
-                    width={1920}
-                    height={400}
+                    fill
                     priority
-                    className="w-full h-[600px] object-cover"
+                    sizes="100vw"
+                    className="object-cover object-center"
                 />
             </div>
         </section>
