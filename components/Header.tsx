@@ -58,7 +58,7 @@ export default function Header() {
                     {/* Social Icons */}
                     <div className="hidden items-center gap-3 md:flex">
                         <Link
-                            href="https://instagram.com"
+                            href="https://www.instagram.com/gaadiguru.rides"
                             target="_blank"
                             aria-label="Instagram"
                             className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-gray-800 shadow transition-all duration-300 hover:scale-110 hover:bg-pink-500 hover:text-white"
