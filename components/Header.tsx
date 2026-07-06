@@ -43,7 +43,7 @@ export default function Header() {
                 <div className="ml-auto flex items-center gap-8">
 
                     {/* Navigation */}
-                    <nav className="hidden md:flex items-center gap-8">
+                    {/* <nav className="hidden md:flex items-center gap-8">
                         {navLinks.map((item) => (
                             <Link
                                 key={item.name}
@@ -53,7 +53,7 @@ export default function Header() {
                                 {item.name}
                             </Link>
                         ))}
-                    </nav>
+                    </nav> */}
 
                     {/* Social Icons */}
                     <div className="hidden items-center gap-3 md:flex">
@@ -75,23 +75,16 @@ export default function Header() {
                             <FaFacebookF size={17} />
                         </Link>
 
-                        <Link
+                        {/* <Link
                             href="https://linkedin.com"
                             target="_blank"
                             aria-label="LinkedIn"
                             className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-gray-800 shadow transition-all duration-300 hover:scale-110 hover:bg-sky-700 hover:text-white"
                         >
                             <FaLinkedinIn size={17} />
-                        </Link>
+                        </Link> */}
                     </div>
 
-                    {/* Download Button */}
-                    <Link
-                        href="/download"
-                        className="rounded-full bg-black px-6 py-3 font-semibold text-white shadow-md transition hover:scale-105"
-                    >
-                        Download App
-                    </Link>
 
                 </div>
 

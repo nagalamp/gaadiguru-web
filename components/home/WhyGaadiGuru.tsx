@@ -7,28 +7,28 @@ import { FaArrowRight } from "react-icons/fa";
 const services = [
     {
         title: "Cab",
-        image: "/images/services/cab.png",
+        image: "/images/vehicles/car.png",
     },
     {
         title: "Auto",
-        image: "/images/services/auto.png",
+        image: "/images/vehicles/auto.png",
     },
     {
         title: "Bike Taxi",
-        image: "/images/services/bike-taxi.png",
+        image: "/images/vehicles/bike.png",
     },
     {
         title: "Parcel",
-        image: "/images/services/parcel.png",
+        image: "/images/vehicles/parcel.png",
     },
     {
         title: "Truck",
-        image: "/images/services/truck.png",
+        image: "/images/vehicles/truck.png",
     },
     {
         title: "Ambulance",
-        image: "/images/services/ambulance.png",
-    },
+        image: "/images/vehicles/ambulance.png",
+    }
 ];
 
 const features = [
@@ -206,95 +206,7 @@ export default function ComingSoonPage() {
 
                 </div>                {/* Download App Section */}
 
-                <div className="mt-24">
 
-                    <div className="overflow-hidden rounded-[40px] bg-[#FFD700] shadow-2xl">
-
-                        <div className="grid items-center gap-12 p-10 lg:grid-cols-2 lg:p-16">
-
-                            {/* Left */}
-
-                            <div>
-
-                                <span className="rounded-full bg-white px-4 py-2 text-xs font-bold uppercase tracking-[0.25em] text-gray-700">
-                                    Mobile App
-                                </span>
-
-                                <h2
-                                    className="mt-6 text-4xl font-bold leading-tight text-black"
-                                    style={{
-                                        fontFamily:
-                                            "Comfortaa, sans-serif",
-                                    }}
-                                >
-                                    Your Journey
-                                    <br />
-                                    Starts Soon.
-                                </h2>
-
-                                <p className="mt-6 text-lg leading-8 text-gray-800">
-                                    Download the GaadiGuru app once it
-                                    launches and enjoy seamless booking
-                                    for Cab, Auto, Bike Taxi, Parcel,
-                                    Truck and Ambulance services across
-                                    Karnataka.
-                                </p>
-
-                                <div className="mt-8 flex flex-wrap gap-4">
-
-                                    <div className="rounded-xl bg-black px-6 py-4 text-white shadow-lg">
-                                        <p className="text-xs uppercase text-gray-400">
-                                            Coming Soon On
-                                        </p>
-
-                                        <p className="text-lg font-bold">
-                                            Google Play
-                                        </p>
-                                    </div>
-
-                                    <div className="rounded-xl bg-black px-6 py-4 text-white shadow-lg">
-                                        <p className="text-xs uppercase text-gray-400">
-                                            Coming Soon On
-                                        </p>
-
-                                        <p className="text-lg font-bold">
-                                            App Store
-                                        </p>
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            {/* QR */}
-
-                            <div className="flex justify-center">
-
-                                <div className="rounded-3xl bg-white p-8 shadow-xl">
-
-                                    <Image
-                                        src="/images/qr-code.png"
-                                        alt="QR Code"
-                                        width={220}
-                                        height={220}
-                                        className="rounded-xl"
-                                    />
-
-                                    <p className="mt-5 text-center font-semibold text-gray-700">
-                                        Scan to download
-                                        <br />
-                                        after launch
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
 
                 {/* CTA */}
 
