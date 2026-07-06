@@ -227,7 +227,7 @@ export default function ComingSoonPage() {
                         Stay tuned—we'll be launching very soon.
                     </p>
 
-                    <div className="mt-10 flex flex-wrap justify-center gap-5">
+                    {/* <div className="mt-10 flex flex-wrap justify-center gap-5">
 
                         <Link
                             href="/"
@@ -241,7 +241,7 @@ export default function ComingSoonPage() {
                             Notify Me
                         </button>
 
-                    </div>
+                    </div> */}
 
                 </div>
 
@@ -249,7 +249,7 @@ export default function ComingSoonPage() {
 
                 <footer className="mt-24 border-t border-gray-200 pt-10">
 
-                    <div className="flex flex-col items-center justify-between gap-5 md:flex-row">
+                    <div className="flex flex-col items-center  gap-5 md:flex-row">
 
                         <div>
 
