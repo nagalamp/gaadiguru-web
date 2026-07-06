@@ -9,7 +9,7 @@ export default function HeroSection() {
         >
             <div className="relative w-full h-[220px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px]">
                 <Image
-                    src="/images/hero/banner-image.png"
+                    src="/images/hero/banner.png"
                     alt="GaadiGuru Hero Banner"
                     width={1920}
                     height={400}
