@@ -120,7 +120,15 @@ export default function ComingSoonPage() {
                 <div className="mt-20 grid gap-6 md:grid-cols-4">
 
                     <div className="rounded-3xl bg-white p-8 text-center shadow-lg">
-                        <h2 className="text-4xl font-bold text-[#F4C400]">
+
+
+                        <h2
+                            className="text-3xl font-bold text-gray-900 md:text-4xl"
+                            style={{
+                                fontFamily:
+                                    "Comfortaa, sans-serif",
+                            }}
+                        >
                             24×7
                         </h2>
                         <p className="mt-2 text-gray-600">
@@ -129,16 +137,34 @@ export default function ComingSoonPage() {
                     </div>
 
                     <div className="rounded-3xl bg-white p-8 text-center shadow-lg">
-                        <h2 className="text-4xl font-bold text-[#F4C400]">
+
+
+                        <h2
+                            className="text-3xl font-bold text-gray-900 md:text-4xl"
+                            style={{
+                                fontFamily:
+                                    "Comfortaa, sans-serif",
+                            }}
+                        >
                             100%
                         </h2>
+
+
                         <p className="mt-2 text-gray-600">
                             Verified Drivers
                         </p>
                     </div>
 
                     <div className="rounded-3xl bg-white p-8 text-center shadow-lg">
-                        <h2 className="text-4xl font-bold text-[#F4C400]">
+
+
+                        <h2
+                            className="text-3xl font-bold text-gray-900 md:text-4xl"
+                            style={{
+                                fontFamily:
+                                    "Comfortaa, sans-serif",
+                            }}
+                        >
                             Live
                         </h2>
                         <p className="mt-2 text-gray-600">
@@ -147,7 +173,15 @@ export default function ComingSoonPage() {
                     </div>
 
                     <div className="rounded-3xl bg-white p-8 text-center shadow-lg">
-                        <h2 className="text-4xl font-bold text-[#F4C400]">
+
+
+                        <h2
+                            className="text-3xl font-bold text-gray-900 md:text-4xl"
+                            style={{
+                                fontFamily:
+                                    "Comfortaa, sans-serif",
+                            }}
+                        >
                             Fast
                         </h2>
                         <p className="mt-2 text-gray-600">
@@ -218,7 +252,7 @@ export default function ComingSoonPage() {
                     <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-gray-600">
                         Thank you for your patience. GaadiGuru is preparing
                         a smarter, safer, and faster mobility experience.
-                        Stay tuned—we'll be launching very soon.
+                        Stay tuned we'll be launching very soon.
                     </p>
 
                     {/* <div className="mt-10 flex flex-wrap justify-center gap-5">
