@@ -63,24 +63,18 @@ export default function ComingSoonPage() {
 
                 <div className="mx-auto mt-10 max-w-5xl text-center">
 
-                    <h1
-                        className="text-4xl font-bold leading-tight text-gray-900 md:text-5xl lg:text-6xl"
+                    <h2
+                        className="text-3xl font-bold text-gray-900 md:text-4xl"
                         style={{
-                            fontFamily: "Comfortaa, sans-serif",
+                            fontFamily:
+                                "Comfortaa, sans-serif",
                         }}
                     >
-                        Karnataka's Smartest
-                        <br />
-                        <span className="text-[#F4C400]">
-                            Mobility Platform
-                        </span>
-                    </h1>
+                        A Complete Automotive Ecosystem
+                    </h2>
 
                     <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-gray-600">
-                        Book your everyday rides, transport goods,
-                        send parcels, or request emergency ambulance
-                        services—all from a single powerful app designed
-                        for speed, safety, and convenience.
+                        GaadiGuru is an upcoming digital automotive platform that unifies mobility services, vehicle marketplaces, logistics, spare parts commerce, vehicle servicing, roadside assistance, financing, insurance, and AI-powered automotive solutions. Built for customers, drivers, dealerships, workshops, fleet operators, and businesses, GaadiGuru aims to deliver a smarter, faster, and more connected automotive experience.
                     </p>
 
                 </div>
